@@ -9,7 +9,7 @@ A frontend CRUD dashboard built with:
 
 ## 🔗 Live Demo
 
-👉 https://react-crud-dashboard.vercel.app
+https://zaid-dev-topaz.vercel.app/
 
 ## 📦 Features
 
