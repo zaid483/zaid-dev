@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-80%); } /* move left by half container width */
+}
+
+.animate-marquee {
+  display: flex;
+  min-width: 100%; /* ensure the duplicated logos fit */
+  animation: marquee 15s linear infinite;
+}
+
